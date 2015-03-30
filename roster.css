@@ -54,7 +54,7 @@ h2
 	width: 30%;
 	height: 12em;
 	margin: 17px;
-	background-color: #111111;
+	background-color: rgba(0,0,0,0.85);
 	border-radius: 15px;
 }
 .roster div h2

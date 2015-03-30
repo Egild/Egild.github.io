@@ -16,6 +16,10 @@ h1,h2
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+a 
+{
+	text-decoration: none;
+}
 .page 
 {
 	width: 1024px;

@@ -1,0 +1,178 @@
+body 
+{
+	font-size: large;
+}
+h1
+{
+	font-size: 150%;
+}
+h2
+{
+	font-size:130%;
+}
+.page
+{
+	margin: 0px auto;
+	width: 1024px;
+}
+.page div
+{
+	float: left;
+}
+.header
+{
+	width: 1024px;
+	background-color: #696969;
+	color: white;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+.header ul
+{
+	list-style: none;
+}
+.header li
+{
+	float: left;
+	width: 30%;
+	margin: 10px 17px 10px 17px;
+	text-align: center;
+}
+.roster
+{
+	width: 1024px;
+	background-color: #4F4F4F;
+}
+.roster h1,h2
+{
+	color: white;
+	margin: 10px;
+}
+.roster div
+{
+	float:left;
+	width: 30%;
+	height: 12em;
+	margin: 17px;
+	background-color: rgba(0,0,0,0.85);
+	border-radius: 15px;
+}
+.roster div h2
+{
+	text-align: center;
+}
+.roster ul li 
+{
+	margin-left: 25px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+.warrior
+{
+	background: url(images/warrior.png) right no-repeat;
+}
+.warrior a
+{
+	color: #C79C6E;
+}
+.deadknight
+{
+	background: url(images/deadknight.png) right no-repeat;
+}
+.deadknight a
+{
+	color: #C41F3B;
+}
+.palladin
+{
+	background: url(images/palladin.png) right no-repeat;
+}
+.palladin a
+{
+	color: #F58CBA;
+}
+.hunter
+{
+	background: url(images/hunter.png) right no-repeat;
+}
+.hunter a
+{
+	color: #ABD473;
+}
+.shaman
+{
+	background: url(images/shaman.png) right no-repeat;
+}
+.shaman a
+{
+	color: #0070DE;
+}
+.druid
+{
+	background: url(images/druid.png) right no-repeat;
+}
+.druid a
+{
+	color: #FF7D0A;
+}
+.rogue
+{
+	background: url(images/rogue.png) right no-repeat;
+}
+.rogue a
+{
+	color: #FFF569;
+}
+.monk
+{
+	background: url(images/monk.png) right no-repeat;
+}
+.monk a
+{
+	color: #00FF96;
+}
+.priest
+{
+	background: url(images/priest.png) right no-repeat;
+}
+.priest a
+{
+	color: #FFF;
+}
+.mage
+{
+	background: url(images/mage.png) right no-repeat;
+}
+.mage a
+{
+	color: #69CCF0;
+}
+.warlock
+{
+	background: url(images/warlock.png) right no-repeat;
+}
+.warlock a
+{
+	color: #9482C9;
+}
+.footer
+{
+	width: 1024px;
+	height: 2em;
+	background-color: #696969;
+	color: white;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.footer p 
+{
+	margin: 0.5em 1em 0.5em;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	margin-left: 10px;
+}

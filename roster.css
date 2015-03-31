@@ -31,10 +31,26 @@ h2
 {
 	list-style: none;
 }
+.header a
+{
+	width: 100%;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover
+{
+	margin-left: 0px;
+}
+.header li:hover
+{
+	background: black;
+}
 .header li
 {
+	font-size: 110%;
 	float: left;
 	width: 30%;
+	height: 1em;
 	margin: 10px 17px 10px 17px;
 	text-align: center;
 }
@@ -52,10 +68,11 @@ h2
 {
 	float:left;
 	width: 30%;
-	height: 12em;
+	height: 250px;
 	margin: 17px;
-	background-color: rgba(0,0,0,0.85);
 	border-radius: 15px;
+	background: -moz-linear-gradient(top, #111 0%, #111 50%, #111 51%, #111 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.90) 0%, rgba(0,0,0,0.90) 50%, rgba(0,0,0,0.90) 51%, rgba(0,0,0,0.90) 100%)
 }
 .roster div h2
 {
@@ -67,94 +84,121 @@ h2
 	margin-top: 3px;
 	margin-bottom: 5px;
 }
-.warrior
+.warrior div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/warrior.png) right no-repeat;
 }
 .warrior a
 {
 	color: #C79C6E;
 }
-.deadknight
+.deadknight div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/deadknight.png) right no-repeat;
 }
 .deadknight a
 {
 	color: #C41F3B;
 }
-.palladin
+.palladin div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/palladin.png) right no-repeat;
 }
 .palladin a
 {
 	color: #F58CBA;
 }
-.hunter
+.hunter div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/hunter.png) right no-repeat;
 }
 .hunter a
 {
+	margin: 0;
+	width: 100%;
 	color: #ABD473;
 }
-.shaman
+.shaman div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/shaman.png) right no-repeat;
 }
 .shaman a
 {
 	color: #0070DE;
 }
-.druid
+.druid div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/druid.png) right no-repeat;
 }
 .druid a
 {
 	color: #FF7D0A;
 }
-.rogue
+.rogue div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/rogue.png) right no-repeat;
 }
 .rogue a
 {
 	color: #FFF569;
 }
-.monk
+.monk div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/monk.png) right no-repeat;
 }
 .monk a
 {
+	margin: 0;
+	width: 100%;
 	color: #00FF96;
 }
-.priest
+.priest div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/priest.png) right no-repeat;
 }
 .priest a
 {
 	color: #FFF;
 }
-.mage
+.mage div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/mage.png) right no-repeat;
 }
 .mage a
 {
 	color: #69CCF0;
 }
-.warlock
+.warlock div
 {
+	margin: 0;
+	width: 100%;
 	background: url(images/warlock.png) right no-repeat;
 }
 .warlock a
 {
 	color: #9482C9;
 }
+
 .footer
 {
 	width: 1024px;

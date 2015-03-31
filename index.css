@@ -38,10 +38,22 @@ h1,h2
 {
 	list-style: none;
 }
+.header a
+{
+	width: 100%;
+	text-decoration: none;
+	color: white;
+}
+.header li:hover
+{
+	background: black;
+}
 .header li
 {
+	font-size: 110%;
 	float: left;
 	width: 30%;
+	height: 1em;
 	margin: 10px 17px 10px 17px;
 	text-align: center;
 }

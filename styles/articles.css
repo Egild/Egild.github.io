@@ -1,0 +1,14 @@
+.content_list .wrapper p {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.left_img {
+	width: 300px;
+	float: left;
+	margin-right: 15px;
+}
+.right_img {
+	width: 300px;
+	float: right;
+	margin-left: 15px;
+}

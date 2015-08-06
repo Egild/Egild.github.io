@@ -1,0 +1,30 @@
+.request {
+	padding: 30px;
+}
+.request h1 {
+	font-size: 24px;
+}
+.request input{
+	font-size: 18px;
+	width: 400px;
+	padding: 5px;
+	margin-top: 5px;
+}
+.request p {
+	margin-top: 15px;
+	font-size: 16px;
+}
+.request textarea {
+	font-size: 18px;
+	resize: none;
+	padding: 5px;
+	width: 400px;
+	height: 150px;
+	margin: 10px 0 20px;
+}
+.request button
+{
+	display: block;
+	padding: 7px 25px;
+	font-size: 14px;
+}

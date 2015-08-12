@@ -3,7 +3,9 @@
 	font-size: 30px;
 }
 .recruit img {
-	width: 1024px;
+	width: 100%;
+	max-width: 1024px;
+	min-width: 300px;
 	margin-bottom: 15px;
 }
 .recruit p {

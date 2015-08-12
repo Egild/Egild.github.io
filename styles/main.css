@@ -41,28 +41,30 @@ a
 }
 .clearfix 
 {
-  clear: both;
+  clear: left;
 }
 .wrapper
 {
-  width: 1024px;
+  min-width: 320px;
+  max-width: 1024px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding: 10px;
 }
 .header
 {
   color: white;
   background: #0083bc;
-  min-width: 1024px;
+  min-width: 340px;
   overflow: hidden;
 }
 .header .wrapper div
 {
   float: left;
-  height: 80px;
   width: 30%;
-  margin-right: 3%;
+  min-width: 300px;
+  margin-right: 2%;
   margin-bottom: 15px;
+
 }
 .logo img
 {
@@ -90,15 +92,14 @@ a
   overflow: hidden;
   clear: left;
   background: #009FD5;
-  min-width: 1024px;
-  margin-bottom: 10px;
+  min-width: 280px;
 }
 .main_menu li
 {
   float: left;
   color: white;
   font-size: 20px;
-  padding: 15px 30;
+  padding: 15px 30px;
 }
 .main_menu li:hover
 {
@@ -107,7 +108,8 @@ a
 .content_list {
   overflow: visible;
   background: #d9eaff;
-  min-width: 1024px;
+  min-width: 320px;
+  padding: 10px;
 }
 .content_list .wrapper {
   padding-top: 20px;
@@ -123,11 +125,12 @@ a
 .footer {
   overflow: hidden;
   background: #005C95;
-  min-width: 1024px;
+  min-width: 340px;
   color: white;
 }
 .footer .wrapper div {
-  width: 27%;
+  width: 29%;
+  min-width: 280px;
   float: left;
   padding: 20px;
   font-size: 20px;

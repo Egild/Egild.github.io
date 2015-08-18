@@ -1,9 +1,7 @@
 .photo_item {
 	float: left;
-	width: 330px;
-	margin-left: 5px;
-	margin-right: 6px; 
-	margin-bottom: 20px;
+	width: 300px;
+	padding: 10px;
 }
 .photo_item  img {
 	width: 100%;

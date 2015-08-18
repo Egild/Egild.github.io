@@ -5,6 +5,7 @@
 .content_list .wrapper iframe
 {
 	width: 90%;
+	height: 50%;
 	min-width: 280px;
 	min-height: 210px;
 	margin-bottom: 20px;

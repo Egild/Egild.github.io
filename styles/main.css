@@ -107,10 +107,9 @@ a
   background: #0073B2;
 }
 .content_list {
-  overflow: visible;
+  overflow: hidden;
   background: #d9eaff;
-  min-width: 320px;
-  padding: 10px;
+  min-width: 340px;
 }
 .content_list .wrapper {
   padding-top: 20px;
@@ -138,6 +137,7 @@ a
 }
 
 .page-wrapper {
+  min-width: 340px;
     min-height: 100%;
     margin-bottom: -130px;
     background: #d9eaff;

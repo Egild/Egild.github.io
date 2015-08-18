@@ -1,21 +1,26 @@
-.recruit h1 {
-	margin-top: 10px;
-	font-size: 30px;
+.news_item {
+	overflow: hidden;
 }
-.recruit img {
-	width: 100%;
-	max-width: 1024px;
+.news_item div {
+	width: 50%;
 	min-width: 300px;
+	float: left;
+	max-width: 680px;
+}
+.news_item img {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 15px;
 }
-.recruit p {
+.news_item h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.news_item p {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
-.recruit ul li
-{
-	list-style-type: disc;
-	font-size: 18px;
-	margin-bottom: 10px;
-	margin-left: 20px;
+.news_item li {
+	margin-bottom: 7px;
 }

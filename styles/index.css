@@ -4,6 +4,9 @@
 }
 .content_list .wrapper iframe
 {
+	width: 90%;
+	min-width: 280px;
+	min-height: 210px;
 	margin-bottom: 20px;
 }
 .content_list .wrapper p {
